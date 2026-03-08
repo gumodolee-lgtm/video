@@ -1,0 +1,24 @@
+{
+  "name": "my-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render MyVideo out/video.mp4",
+    "upgrade": "npx remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.434",
+    "@remotion/google-fonts": "4.0.434",
+    "@remotion/transitions": "4.0.434",
+    "react": "^19",
+    "react-dom": "^19",
+    "remotion": "4.0.434",
+    "typescript": "^5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}
