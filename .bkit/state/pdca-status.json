@@ -1,0 +1,325 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-03-08T13:08:06.428Z",
+  "activeFeatures": [
+    "my-video",
+    "scenes",
+    "video",
+    "api",
+    "comfyui",
+    "remotion",
+    "transitions",
+    "pipeline"
+  ],
+  "primaryFeature": "my-video",
+  "features": {
+    "my-video": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:18:34.626Z",
+        "lastUpdated": "2026-03-08T12:18:47.699Z"
+      },
+      "lastFile": "d:\\AI_PROJECT\\video\\my-video\\src\\MyVideo.tsx"
+    },
+    "scenes": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:19:10.503Z",
+        "lastUpdated": "2026-03-08T12:59:21.310Z"
+      },
+      "lastFile": "d:/AI_PROJECT/video/src/remotion/scenes/MainComposition.tsx"
+    },
+    "video": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:55:24.172Z",
+        "lastUpdated": "2026-03-08T12:59:40.488Z"
+      },
+      "lastFile": "d:/AI_PROJECT/video/src/utils/interpolate.js"
+    },
+    "api": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:57:56.336Z",
+        "lastUpdated": "2026-03-08T13:07:33.390Z"
+      },
+      "lastFile": "d:/AI_PROJECT/video/src/api/elevenlabs.js"
+    },
+    "comfyui": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:58:48.832Z",
+        "lastUpdated": "2026-03-08T12:58:48.832Z"
+      },
+      "lastFile": "d:/AI_PROJECT/video/src/comfyui/controller.js"
+    },
+    "remotion": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:59:15.844Z",
+        "lastUpdated": "2026-03-08T13:07:42.602Z"
+      },
+      "lastFile": "d:/AI_PROJECT/video/src/remotion/render.js"
+    },
+    "transitions": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:59:23.942Z",
+        "lastUpdated": "2026-03-08T12:59:23.942Z"
+      },
+      "lastFile": "d:/AI_PROJECT/video/src/remotion/transitions/FadeTransition.tsx"
+    },
+    "pipeline": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-08T12:59:58.367Z",
+        "lastUpdated": "2026-03-08T13:08:06.428Z"
+      },
+      "lastFile": "d:/AI_PROJECT/video/src/pipeline/auto-generate.js"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-03-08T12:12:50.833Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-03-08T13:08:06.428Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-03-08T12:18:34.626Z",
+      "feature": "my-video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:18:40.259Z",
+      "feature": "my-video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:18:42.902Z",
+      "feature": "my-video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:18:47.699Z",
+      "feature": "my-video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:19:10.503Z",
+      "feature": "scenes",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:19:24.944Z",
+      "feature": "scenes",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:19:44.802Z",
+      "feature": "scenes",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:19:53.205Z",
+      "feature": "scenes",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:20:06.429Z",
+      "feature": "scenes",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:55:24.172Z",
+      "feature": "video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:56:25.303Z",
+      "feature": "video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:57:56.336Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:58:03.052Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:58:07.468Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:58:11.428Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:58:17.660Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:58:25.535Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:58:48.832Z",
+      "feature": "comfyui",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:59:15.845Z",
+      "feature": "remotion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:59:21.310Z",
+      "feature": "scenes",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:59:23.942Z",
+      "feature": "transitions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:59:32.999Z",
+      "feature": "video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:59:40.489Z",
+      "feature": "video",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T12:59:58.367Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:06:38.603Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:06:44.003Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:06:49.316Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:06:56.550Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:07:31.640Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:07:33.390Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:07:42.602Z",
+      "feature": "remotion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-08T13:08:06.428Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}

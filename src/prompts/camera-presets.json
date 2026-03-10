@@ -1,0 +1,32 @@
+{
+  "telephoto_85mm": {
+    "prompt": "shot with 85mm telephoto lens, shallow depth of field, f/1.4, beautiful bokeh, compressed perspective",
+    "kling_camera": { "type": "static", "fov": 28 },
+    "use_case": "인물 클로즈업, 감성샷"
+  },
+  "wide_14mm": {
+    "prompt": "shot with 14mm ultra wide angle lens, dramatic perspective distortion, deep depth of field, epic scale",
+    "kling_camera": { "type": "pan_right", "fov": 114 },
+    "use_case": "풍경, 건물, 스케일감"
+  },
+  "hitchcock_zoom": {
+    "prompt": "Hitchcock dolly zoom effect, vertigo effect, background expanding while subject stays same size, unsettling dramatic mood",
+    "kling_camera": { "type": "dolly_zoom", "intensity": 0.9 },
+    "use_case": "공포, 서스펜스, 반전 장면"
+  },
+  "crane_down": {
+    "prompt": "smooth crane down movement from bird's eye view descending to eye level, cinematic reveal shot",
+    "kling_camera": { "type": "crane_down", "intensity": 0.7 },
+    "use_case": "오프닝, 장소 소개"
+  },
+  "top_angle": {
+    "prompt": "extreme top-down overhead angle, bird's eye view, flat lay perspective, graphic composition",
+    "kling_camera": { "type": "top_down", "intensity": 0.5 },
+    "use_case": "음식, 테이블, 맵 뷰"
+  },
+  "orbital_360": {
+    "prompt": "smooth 360 degree orbital camera movement around subject, dynamic parallax, cinematic lighting changes",
+    "kling_camera": { "type": "orbit", "intensity": 0.6 },
+    "use_case": "제품 소개, 히어로 샷"
+  }
+}

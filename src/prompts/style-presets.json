@@ -1,0 +1,42 @@
+{
+  "cinematic_dark": {
+    "description": "다크 시네마틱 무드",
+    "prompt_suffix": "shot on Arri Alexa 65, anamorphic lens flare, teal and orange color grading, cinematic lighting, film grain",
+    "negative_prompt": "blurry, distorted, low quality, overexposed, cartoon, anime"
+  },
+  "cinematic_warm": {
+    "description": "따뜻한 시네마틱 톤",
+    "prompt_suffix": "shot on RED V-Raptor, warm golden hour lighting, soft diffusion, 35mm film look, Kodak Vision3 500T",
+    "negative_prompt": "blurry, distorted, cold colors, harsh lighting"
+  },
+  "neon_noir": {
+    "description": "네온 느와르 (사이버펑크)",
+    "prompt_suffix": "neon-lit environment, cyberpunk aesthetic, heavy rain, reflections on wet surfaces, neon signs, moody atmosphere",
+    "negative_prompt": "blurry, bright daylight, cheerful, cartoon"
+  },
+  "documentary": {
+    "description": "다큐멘터리 스타일",
+    "prompt_suffix": "documentary style, natural lighting, handheld camera, 16mm film grain, realistic, candid moment",
+    "negative_prompt": "stylized, fantasy, cartoon, studio lighting"
+  },
+  "anime": {
+    "description": "일본 애니메이션 스타일",
+    "prompt_suffix": "anime style, Studio Ghibli inspired, vibrant colors, detailed background, cel shading, beautiful scenery",
+    "negative_prompt": "photorealistic, blurry, 3D render, uncanny valley"
+  },
+  "vintage_film": {
+    "description": "빈티지 필름 룩",
+    "prompt_suffix": "vintage Super 8 film look, heavy grain, light leaks, desaturated colors, 1970s aesthetic, nostalgic",
+    "negative_prompt": "modern, clean, digital, sharp, high contrast"
+  },
+  "commercial": {
+    "description": "광고/상업 영상",
+    "prompt_suffix": "high-end commercial look, perfect lighting, clean composition, product photography quality, 8K resolution",
+    "negative_prompt": "blurry, amateur, grainy, dark, moody"
+  },
+  "music_video": {
+    "description": "뮤직비디오 스타일",
+    "prompt_suffix": "music video aesthetic, dynamic lighting, color gel effects, smoke machine, high contrast, dramatic",
+    "negative_prompt": "static, boring, documentary, flat lighting"
+  }
+}

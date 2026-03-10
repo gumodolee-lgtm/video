@@ -1,0 +1,38 @@
+{
+  "name": "my-ai-video-studio",
+  "version": "1.0.0",
+  "description": "AI Video Studio - Multi-API video generation pipeline",
+  "main": "src/pipeline/auto-generate.js",
+  "scripts": {
+    "generate": "node src/pipeline/auto-generate.js",
+    "kling": "node src/api/kling.js",
+    "runway": "node src/api/runway.js",
+    "pika": "node src/api/pika.js",
+    "pika-auto": "node src/pika-automation.js",
+    "comfyui": "node src/comfyui/controller.js",
+    "studio": "npx remotion studio src/remotion/Root.tsx",
+    "render": "npx remotion render src/remotion/Root.tsx MainComposition output/final.mp4"
+  },
+  "keywords": [
+    "ai-video",
+    "kling",
+    "runway",
+    "pika",
+    "comfyui",
+    "remotion"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.434",
+    "@remotion/player": "^4.0.434",
+    "dotenv": "^17.3.1",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^24.38.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.434",
+    "ws": "^8.19.0"
+  }
+}

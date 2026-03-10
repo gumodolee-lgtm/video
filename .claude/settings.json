@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create video@latest)",
+      "Bash(npx skills add remotion-dev/skills)",
+      "Bash(npx skills add remotion-dev/skills --yes)",
+      "Bash(npx create-video@latest --template blank my-video)",
+      "Bash(npx create-video@latest --blank my-video)",
+      "Bash(printf \"y\\\\n\")",
+      "Bash(npx --yes create-video@latest my-video --template blank)",
+      "Bash(mkdir -p d:/AI_PROJECT/video/my-video/src)",
+      "Bash(mkdir -p d:/AI_PROJECT/video/my-video/public)",
+      "Bash(npm install)"
+    ]
+  }
+}

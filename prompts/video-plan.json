@@ -1,0 +1,39 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "description": "A serene Korean traditional garden with cherry blossoms in full bloom, gentle breeze moving the petals",
+      "camera_movement": "slow_pan_right",
+      "duration": 4,
+      "style": "cinematic_warm"
+    },
+    {
+      "id": 2,
+      "description": "A bustling Seoul street market at night, neon signs glowing, people walking with umbrellas in light rain",
+      "camera_movement": "dolly_forward",
+      "duration": 5,
+      "style": "neon_noir"
+    },
+    {
+      "id": 3,
+      "description": "A peaceful mountain temple at sunrise, mist rising from the valley, traditional architecture",
+      "camera_movement": "crane_up",
+      "duration": 6,
+      "style": "vintage_film"
+    },
+    {
+      "id": 4,
+      "description": "A modern Korean cafe interior, latte art being created, cozy atmosphere with books and plants",
+      "camera_movement": "orbital_360",
+      "duration": 4,
+      "style": "commercial"
+    },
+    {
+      "id": 5,
+      "description": "A traditional Korean hanbok dancer performing in a palace courtyard, flowing movements",
+      "camera_movement": "hitchcock_zoom",
+      "duration": 5,
+      "style": "cinematic_dark"
+    }
+  ]
+}
