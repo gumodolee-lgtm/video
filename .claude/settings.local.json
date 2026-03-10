@@ -3,7 +3,8 @@
     "allow": [
       "Bash(bash d:/AI_PROJECT/push-all.sh)",
       "Bash(cmdkey /list)",
-      "Bash(git credential-manager:*)"
+      "Bash(git credential-manager:*)",
+      "Bash(bash d:/AI_PROJECT/video/push-all.sh)"
     ]
   }
 }
