@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(bash d:/AI_PROJECT/push-all.sh)"
+      "Bash(bash d:/AI_PROJECT/push-all.sh)",
+      "Bash(cmdkey /list)",
+      "Bash(git credential-manager:*)"
     ]
   }
 }
