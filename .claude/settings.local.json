@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash d:/AI_PROJECT/push-all.sh)"
+    ]
+  }
+}
