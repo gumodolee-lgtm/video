@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "npx remotion studio",
-    "build": "npx remotion render MyVideo out/video.mp4",
+    "build": "npx remotion render Episode30 out/episode30.mp4",
+    "build:demo": "npx remotion render MyVideo out/video.mp4",
     "upgrade": "npx remotion upgrade"
   },
   "dependencies": {
@@ -22,7 +23,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
   }
 }
